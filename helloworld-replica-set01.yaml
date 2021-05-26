@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: ReplicaSet
 metadata:
-  name: helloworld-controller
+  name: helloworld-replicaset
   labels:
     app: helloworld
     tier: frontend
